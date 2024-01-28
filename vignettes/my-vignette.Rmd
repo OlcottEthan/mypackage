@@ -26,7 +26,7 @@ Vignettes are long form documentation commonly included in packages. Because the
 
 This mypackage **R** package is one that we will be modifying in Math 3190. It starts out with four functions: `add()`, `ggraph()`, `hello()`, and `subtract()`. All of these are quite simple except the `ggraph()`, which depends on `ggplot2` and gives a quick way to create a scatter plot with two vectors. 
 
-This package also includes the data set called `cranes`. This is a simple data set that contains information about the number of cranes at Aransas National Wildlife Refuge in Austwell, Texas by year from 1938 to 2016.
+This package also includes the data set called `cranes`. This is a simple data set that contains information about the number of cranes at Aransas Natlional Wildlife Refuge in Austwell, Texas by year from 1938 to 2016.
 
 ## Examples
 
@@ -34,6 +34,8 @@ This package also includes the data set called `cranes`. This is a simple data s
 library(mypackage)
 add(100, 50) # Adds the two numbers and gives the output
 subtract(100, 50) # Subtracts the second number from the first 
+multiply(100,50) # Multiplies the two numbers and gives the output
+divide(100,50) # Divides the first number by the second number
 hello() # Gives the message "hello world"
 
 # The following is an example for ggraph:
